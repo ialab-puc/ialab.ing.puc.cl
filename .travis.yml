@@ -1,6 +1,4 @@
-language: go
-go:
-  - 1.7
+language: python
 env:
   global:
   - HUGO_VERSION=0.46
