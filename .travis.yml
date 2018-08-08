@@ -1,16 +1,33 @@
 language: python
+sudo: required
+dist: trusty
 env:
   global:
   - HUGO_VERSION=0.46
-  - secure: aSGd5UaWwzBO67cF4SvBlgNTMkslDlnGaH9QKimY89vNURd4TBcSSPhScOtNYwt2IQ55ESYu2OKzGLUZdXEKOpXTXzowstWaf/cnQQZ8UJA+iPIv2vrACZ4jhBtLRf2uPPE7TCheQ3oLFbWjwq9xBTpEpErY3AKIiQmsJI4yivRosLLyzODbIxSCLFbCFK2lIbAToBOwFh66ulef6cs+A9bd6UdSF6rJNhZ3hEk1rgVJ9pbU2j7qhUhtTlcLFvbs8Nr7v8UWdRXEQd8AbIAPL0gMdrY5mxl1R5c6CYKU/79mazZST9HKxIatbq/B3MX3sg99nx9xHV3Nn/joKG2KNJhnWOPvjTQcyoYsE0F5uIoIm9UA4VanybhnB7ONC/8PcS57FCa9klOSeXZtYjdW7eRRF2+mhg67y1UQmCmdfOjsBe+F/xfqLYLTp2zhmoOwIcGhIW8WYFFoSxQA6FtsbiD0U2BxfY6PmLFSQy2SBR2wX6Z6WATLazn3HiMAl4Qv/Y14ox34xTlUbdip5ZfE+HAtAQ+3uLdfkBnc4FGnqJj2lIcQVKYrdSqWPykvbqrXgnJe5K+7dcE9jWE2alRJd4N0rsoyhMztiMxcC9rQKsFhrCeFvApZbRf2R98cwXRbbvNw5e2/pG87+50UynMORrhXF6U/lT0zZlEKW7voIww=
-  - secure: N26/HERO5EhZWoT/fK8bbejvO+imrm5ugncclv09qcLjHP7XyBIn+O/15hHZXQAqnq9M4Sqxb5zWWi/7TSOiL79f9mf5jy4UP+EjoBtEbsUhAv3CGA8J+KacyjuopccdS0L+eNZA3XiPhr3h2Lb7VQ97ZVCSNWHyH+b/I7XsPEQxOxLGjpiIhrgK0qgNv7oqLi9EpA7df+MYAjE3hrcUaKJ/7UXJNyxFgFCmQD3LjwzGKQDQmgojL8xz6UxMoaVCXrnNwa3Szp4ua8+ZH1SZ7PJbxgheXqDT7c0MTE5+48tPpXR8m/OkGBE+p/Dbit7YsbsEstm2SkuIu+bGSetr0rotfyha+QVHlyALGh2oyyB9D9oD6KDu2fZDW0D09UgjlBZ5y6b+T9Ws4zl4BuNK29XiHOzIyWMpNlwjSxnRT4qW3D0XcKynQ5QF1oUnClD4mbRG2nU8TSfLbZAYZAWO+EKlyqvzW9yRCrmiygJmzUWOxAJrH1j9S3/XVR2MqyNlk/3XDpHArq9dU3IuMjP/OlxBwLMkYDuyOOIcxgu/wAgdn/xxn67FjZJOmTm7XDjWA0P1kbjYPO5qoX6tPqwWMj8Uo/K03VB7gXcd3Pr3oMUGKj3G8OQvS4MV2PTvcGQ/MmVOpNPCiA8xXEESyAiRLeLt8lz8uxzOPN6/Gpfisfw=
-  - secure: LvkciEeCU8SNXpQU8roHdzevewvNfmChPFXqh1aAgz+zahx9nmhMaOJr0d5y/AuTnKe9WjnhysiHzDth++pXLctQfbqjt+S6KJkxIsq9vsTMlw5cfWfcYC0zZ0k8p+rFfo4+KZ2xAl1oPFX0rDgWNhhASWeNfFw9nJs0HHeQ0RYGCHi5n5UL190GDK9CNzTBsQv1zXfpgRIP6Q6Howqt+a+KNB1aQ86LHDhaSDVm0o4hYfG4M6cz9G1xw7eQEBjIj0eMuOumi8FbqT95qLoSRLTJ6QV9/dCrcDaibNr23vAq+VZBwUVZGFO9dvmNTv1MxWSSALCRZHu9UbgZzTBLUFVliwTIsjHuOLE5tt6PCax9hL+U0/uNur1eLabMWhbXW2ZiK9vgn6tVvmliaMIF0Y9XLrbVPNl4jksbfOgv35AVPwKiQ0Ejq+ri87Ww6mnPTGX4TenyKTmPbFRnjWlzo7hm2Nw1nIo2b6+J+BqlF7jD+ijujZJCvYFqM+XtLtnFdf2HGBpDtyYvmgZ/H+ZVDNszQqVryOvg0yN1BFXY/C1Syp/mzBxHWLVAqd6gurUmIFDrxlPhZ9GkyCAkOXH2ZP/PpXCU3eXA2vuuUHDDK9jFfrFJd+910n2ZYaRMI3hM7U6Jfn54efREtNVOusV6TS4r9ZnELjsOrsi61Pzz9JI=
+  - secure: kUrDyZKKTRu3Ea1eTTtE3dxcJwU2RpK+6P6rB3eDf8tnjJCu62yeDWzDebm7zjCQidQHbRyTYRGG3XejAv+hBlUzNmMU/vKL1YFscEmjpbNcb7lmx335CEJJVslzs42LjwSwDVhhAPcnufH3IihDq41x4XerGBH1tEjel3I5Q9sQbSiFAH0+yQCHInHR4Al7mxj0OAL2rQ/aP8grK1/03HkjYSnajmLhikaPv9Vz3xZToGOdksTSjWvvy4h7ZMI4I/tZhNTfzeBRQSCdN1IgQ8ZrViy6gPeCe06Sjui74zHJawOFS/YZcFIThOPVGSJnpuBXqJncEdxRWWa7/BNpEwIZ2XapAperqdjb+OFlBeiKIlw4t1FXL1HxUyeIJ0sdCyD+akaM/JjIEGSIYi/EJ7D6vMhLQjnst8yEO/sulBh4BQk0YN56rCmMnjXdS6bBX5fWNRC9mH97sJfEFmhyh+Q0ZPzz1K+EMBiJ2l8nIL492XsHnlhSTsrV00BD0Nhi9Udaa5Yxj+bQvWGPDoIhfQHKv89u5VBmj/MuBkoF5rygifdLr2ngMl6xslLKo8Uj644/24ZoO3s6dg6denn4LKTBfYjPoWqlNgK+DchwZbAujWUYdq6H8uESsf1FtPSr6GgpWwa5RFLlWxCd0SiO1ZXmzqeqm1HNpzip03Yk8ME=
+  - secure: fjNozo/jpvwXglteYOoBTB4IxX/eGYw0/THgbOjLEZ+sOPSqwJ7f4L7f9gveyjTrm51rC1uKL461xPKKE9JUFFslQPaYRDxAaMYOvzbaPngxFWBCM58Www5VekW/5T8xVv9i6n45y3bOxzhLu5bpaNHMW09fHoDCRknIFjtvyGHNfzWtAsPtMi2wTDdXQ3CjheJc6e00LDLLtDt8M2ZsAEO18jT0CMZU16QfEiezOs3+60vcvZgUoKhhblt0jo4HXjJlCD/YKFwDFhTXj7dN9UZxPvTKSBN0E9LZ5vwTu5iS4Yt1U+abXRQGvRH20xeQn4/ObL2O/LZ96k+wCnC0WBbQGOFPwv5VcEluQ1VRFuTyoh1A5b2CDR2BmcBP5olL/VJRofdO3KNnRkQ3afEFMd8/mCXqTvCrfNKrlqKMZnC8zByUTqUljfycs/qxKZgmOESWt8DLX11HpMOeSgpRqHA1vNHG+tL1hqk9aBaiAHKPJqvOn87jkqIjg31qk0ZGLTcaLYia318Mt8viYeNDL8Fh/t+WJIpOT3TDN0KyrhmDLjOEZTtZyt7ZuBj15dnYlMTOinGXsLUIq7WnpvA4KhELZjvgWfPtzzZDPm7KBNkX0bD1ksK8jgV7Vp/ik4paCbhWdhxC0p0scBpsjLrywBE+Bgvma/4FOOkn6RG+1uE=
+  - secure: M+AfQMlgXI2azTRM+Xtp6adz9Rxm12DqVnYHXkpFSitmxJXVMl/YqmietGkt4ivV3xZaP2zCyakETSN9JE+5R5alybLAKeU9UzjEj+lMYFNJSZT5vpB2qejsncaW3c/f0rIni/EserwDPyHorf23/kO29ByP3wqg7nR4AbmF08kCX7RqsGz+q+8Op8SJalySBTYEZ2dpJQDArcP6OO/B5MbJ6T9wunEdrn9qZxc6qXi+yIfCgsos8rlgUJSbg6rBlV650i5uT+/jW2YdiDj/L2x/jp2uQnKRkgqwlKlSgZhdh+9a69mhXa5HEyr8rU1U/LIU239TCgM0iRiW4SlFNfmb/tLpTpealO/Ob7ZQ1ft0TECXT5HsH2bPG7nipuJ9hdg5mJ+bZNJJ0hQy1H0oLkuWl6HdSb38xLgKwmf9NJunIv4Ekoz8TiaykQMeEVwo2dnz8DJrwS1T1tHWDTfwyE2Jb65iy3NCbmPnJZUtp/Ja7s1/lHe8ho0Mt17h75nd2kJkOO/oqiCBNf9BmRqENbnvwT/BPekKEekHttgkInDAuKkx3w2TgayZUOmhE7DdSiVWyO0T8hxrBMncQs1Zzkg6cfSzBFwHT7NPowLfYXnqXY/WzF+LCObisnrspnIgOilV7cMsVgdQw8qJtdY2bMigDFoilS93zEC1e8oco8Q=
+  - secure: D6rp/qyV65mg3YuxB9T1POu04NB52/v1j8pxF/Wv/Bgti0BCLVKDXTKgSlKaA9E0dGMS2k2DtX6XNXc+pmlz3xEcuoNQF4cnoGawJTGz+LR/RAlNfY/Aod1q8HSdND/Klq1+CgJG61ekxtzq+UaRxZtqYsAfI4ahHRvEMPaShYAX8O98BpC6VUCM7Xc/DJxpqergpl7Y/RVaone/MYS8kvd2pR0VtJOQhgP5LT7U3RUUeYeQy0u1IGNrEsieWzuYDlelnaCiUnu3GMr8xM/H3jnMw3fVXoNFBd+quHC+4yAcuhLFErq+o1D3uW0PgUo1s9/V3c396T7mbZM6gVElMw/+fdwCxCMgeaDDLG9fD7Ik+J1cHdaK7gLNAMp+yqwUupU3JN6/nkkFGSsxp3UrLRNLYnngtxtR0cqsG5REq9Ga/f1qmZYQ//6YRHB3Vdc0QSLTvGDeVYYEVxtNj+nWWQ5AHzLGSNch4HZpNYKVl8arm8DBGkbzdYwsAFBQi6ZNopWj7xrQjD4tf1OvpCdG2oCPCMrXl+KmNUUQqPveOc2W6U1h99bWv5eJKhzqnJ+ZX17jic6rjMqNaMlRo4ov2GP24Vm/QFm1meyd9xwHavPfr8dXPv22ErSvapvaQOQ3DD7MaEe5hhcmUZgqRRxeqNOsrW10qQnSljRcTWAg9MI=
 before_install:
-  - mkdir -p bin
-  - curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
-    -o bin/hugo.tar.gz
-  - tar xzvvf bin/hugo.tar.gz -C ./bin
+- mkdir -p bin
+- curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+  -o bin/hugo.tar.gz
+- tar xzvvf bin/hugo.tar.gz -C ./bin
 script:
-  - "./bin/hugo"
+- "./bin/hugo"
 after_success:
-  - curl --ftp-create-dirs -T ./public/ sftp://${SFTP_USER}:${SFTP_PASSWORD}@${SFTP_HOST}
+- sudo apt-get install -qq expect
+- |-
+  cd public
+  expect -c "
+  spawn sftp ${SFTP_USER}@${SFTP_HOST}
+  expect \"Are you sure you want to continue connecting (yes/no)? \"
+  send \"yes\r\"
+  expect \"password: \"
+  send \"${SFTP_PASSWORD}\r\"
+  expect \"sftp>\"
+  send \"cd ${SFTP_PATH}\r\"
+  expect \"sftp>\"
+  send \"put -r .\r\"
+  expect \"sftp>\"
+  "
