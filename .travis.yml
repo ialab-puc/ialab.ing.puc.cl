@@ -1,0 +1,18 @@
+language: go
+go:
+  - 1.7
+env:
+  global:
+  - HUGO_VERSION=0.46
+  - secure: aSGd5UaWwzBO67cF4SvBlgNTMkslDlnGaH9QKimY89vNURd4TBcSSPhScOtNYwt2IQ55ESYu2OKzGLUZdXEKOpXTXzowstWaf/cnQQZ8UJA+iPIv2vrACZ4jhBtLRf2uPPE7TCheQ3oLFbWjwq9xBTpEpErY3AKIiQmsJI4yivRosLLyzODbIxSCLFbCFK2lIbAToBOwFh66ulef6cs+A9bd6UdSF6rJNhZ3hEk1rgVJ9pbU2j7qhUhtTlcLFvbs8Nr7v8UWdRXEQd8AbIAPL0gMdrY5mxl1R5c6CYKU/79mazZST9HKxIatbq/B3MX3sg99nx9xHV3Nn/joKG2KNJhnWOPvjTQcyoYsE0F5uIoIm9UA4VanybhnB7ONC/8PcS57FCa9klOSeXZtYjdW7eRRF2+mhg67y1UQmCmdfOjsBe+F/xfqLYLTp2zhmoOwIcGhIW8WYFFoSxQA6FtsbiD0U2BxfY6PmLFSQy2SBR2wX6Z6WATLazn3HiMAl4Qv/Y14ox34xTlUbdip5ZfE+HAtAQ+3uLdfkBnc4FGnqJj2lIcQVKYrdSqWPykvbqrXgnJe5K+7dcE9jWE2alRJd4N0rsoyhMztiMxcC9rQKsFhrCeFvApZbRf2R98cwXRbbvNw5e2/pG87+50UynMORrhXF6U/lT0zZlEKW7voIww=
+  - secure: N26/HERO5EhZWoT/fK8bbejvO+imrm5ugncclv09qcLjHP7XyBIn+O/15hHZXQAqnq9M4Sqxb5zWWi/7TSOiL79f9mf5jy4UP+EjoBtEbsUhAv3CGA8J+KacyjuopccdS0L+eNZA3XiPhr3h2Lb7VQ97ZVCSNWHyH+b/I7XsPEQxOxLGjpiIhrgK0qgNv7oqLi9EpA7df+MYAjE3hrcUaKJ/7UXJNyxFgFCmQD3LjwzGKQDQmgojL8xz6UxMoaVCXrnNwa3Szp4ua8+ZH1SZ7PJbxgheXqDT7c0MTE5+48tPpXR8m/OkGBE+p/Dbit7YsbsEstm2SkuIu+bGSetr0rotfyha+QVHlyALGh2oyyB9D9oD6KDu2fZDW0D09UgjlBZ5y6b+T9Ws4zl4BuNK29XiHOzIyWMpNlwjSxnRT4qW3D0XcKynQ5QF1oUnClD4mbRG2nU8TSfLbZAYZAWO+EKlyqvzW9yRCrmiygJmzUWOxAJrH1j9S3/XVR2MqyNlk/3XDpHArq9dU3IuMjP/OlxBwLMkYDuyOOIcxgu/wAgdn/xxn67FjZJOmTm7XDjWA0P1kbjYPO5qoX6tPqwWMj8Uo/K03VB7gXcd3Pr3oMUGKj3G8OQvS4MV2PTvcGQ/MmVOpNPCiA8xXEESyAiRLeLt8lz8uxzOPN6/Gpfisfw=
+  - secure: LvkciEeCU8SNXpQU8roHdzevewvNfmChPFXqh1aAgz+zahx9nmhMaOJr0d5y/AuTnKe9WjnhysiHzDth++pXLctQfbqjt+S6KJkxIsq9vsTMlw5cfWfcYC0zZ0k8p+rFfo4+KZ2xAl1oPFX0rDgWNhhASWeNfFw9nJs0HHeQ0RYGCHi5n5UL190GDK9CNzTBsQv1zXfpgRIP6Q6Howqt+a+KNB1aQ86LHDhaSDVm0o4hYfG4M6cz9G1xw7eQEBjIj0eMuOumi8FbqT95qLoSRLTJ6QV9/dCrcDaibNr23vAq+VZBwUVZGFO9dvmNTv1MxWSSALCRZHu9UbgZzTBLUFVliwTIsjHuOLE5tt6PCax9hL+U0/uNur1eLabMWhbXW2ZiK9vgn6tVvmliaMIF0Y9XLrbVPNl4jksbfOgv35AVPwKiQ0Ejq+ri87Ww6mnPTGX4TenyKTmPbFRnjWlzo7hm2Nw1nIo2b6+J+BqlF7jD+ijujZJCvYFqM+XtLtnFdf2HGBpDtyYvmgZ/H+ZVDNszQqVryOvg0yN1BFXY/C1Syp/mzBxHWLVAqd6gurUmIFDrxlPhZ9GkyCAkOXH2ZP/PpXCU3eXA2vuuUHDDK9jFfrFJd+910n2ZYaRMI3hM7U6Jfn54efREtNVOusV6TS4r9ZnELjsOrsi61Pzz9JI=
+before_install:
+  - mkdir -p bin
+  - curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+    -o bin/hugo.tar.gz
+  - tar xzvvf bin/hugo.tar.gz -C ./bin
+script:
+  - "./bin/hugo"
+after_success:
+  - curl --ftp-create-dirs -T ./public/ sftp://${SFTP_USER}:${SFTP_PASSWORD}@${SFTP_HOST}
