@@ -1,28 +1,76 @@
-+++
-# Hero widget.
-widget = "hero"
-active = true
-date = 2017-10-15T00:00:00
-
-title = "IA Lab"
-
-# Order that this section will appear in.
-weight = 3
-
-# Overlay a color or image (optional).
-#   Deactivate an option by commenting out the line, prefixing it with `#`.
-[header]
-  overlay_color = "#666"  # An HTML color value.
-  overlay_img = "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
-
-# Call to action button (optional).
-#   Activate the button by specifying a URL and button label below.
-#   Deactivate by commenting out parameters, prefixing lines with `#`.
-[cta]
-#  url = "./post/getting-started/"
-#  label = '<i class="fa fa-download"></i> Install Now'
-+++
+<!DOCTYPE html>
+<html>
+<head>
+<title>IA Lab</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,IE=9">
+<meta name="keywords" content="">
+<meta name="description" content="ai-lab">
+<meta name="Content-Encoding" content="iso-8859-1">
+<link rel="Top" type="text/html" href="#">
+<style>
+.w3-display-container{position:relative}
+.w3-display-container:hover .w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
+.main-background-container {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.bgimg-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1 {
+        background-attachment: scroll;
+    }
+}
+.w3-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.main-title {
+    min-width: 200px;
+    max-width: 300px;
+    width: 40%;
+}
+.main-title-img {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 12%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+@media (max-width:600px){
+  .title-container {
+    padding-bottom: 15%;
+  }
+  .main-title-img {
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 4%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+  .main-title {
+    width: 60%;
+  }
+}
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+header{display:block}
+canvas{display:inline-block}
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+</style>
 <script type="text/javascript">
 
       window.onload = function(){
@@ -110,7 +158,9 @@ weight = 3
 		loop();      	
 	  };
 </script>
-<!--
+</head>
+<body>
+
 <div class="w3-display-container main-background-container" id="home">
   <canvas class="bgimg-1"></canvas>
   <div class="w3-display-middle main-title">
@@ -120,32 +170,6 @@ weight = 3
     </div>
   </div>
 </div>
--->
-
-<!--
-The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes :rocket:
-<br>
-<small><a id="academic-release" href="https://sourcethemes.com/academic/updates">Latest release</a></small>
-<br><br>
-<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=gcushen&amp;repo=hugo-academic&amp;type=star&amp;count=true&amp;size=large" scrolling="0" width="160px" height="30px" frameborder="0"></iframe>
-<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=gcushen&amp;repo=hugo-academic&amp;type=fork&amp;count=true&amp;size=large" scrolling="0" width="158px" height="30px" frameborder="0"></iframe>
-
-<script type="text/javascript">
-  (function defer() {
-    if (window.jQuery) {
-      jQuery(document).ready(function(){
-        GetLatestReleaseInfo();
-      });
-    } else {
-      setTimeout(function() { defer() }, 50);
-    }
-  })();  
-  function GetLatestReleaseInfo() {
-    $.getJSON('https://api.github.com/repos/gcushen/hugo-academic/tags').done(function (json) {
-      let release = json[0];
-      // let downloadURL = release.zipball_url;
-      $('#academic-release').text('Latest release ' + release.name);  
-    });    
-}  
-</script>
--->
+ 
+</body>
+</html>
