@@ -33,8 +33,6 @@ weight = 5
  
 +++
 
-# Biography
+# This is GRIMA
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Our group on Machine Intelligence or "Grupo de Inteligencia de Máquina". At Grima our main goal is to collaborate in the development of theory and algorithms to increase the flexibility, adaptability, or intelligence of current computer based applications. We foresee that these technologies will be at the core of a new generation of computer based machines able to operate with a high degree of autonomy in natural and virtual environments. Autonomous robots able to operate in natural environments or pro-active computer programs designed for automatic knowledge extraction from data, are some examples of the new generation of "intelligent" machines. The creation of these new applications requires the development of new inference algorithms, representations, and knowledge acquisition tools. Also, the operation in real environments involves advanced perception systems, like computer vision techniques. Finally, pro-active systems can only be built, if suitable decision systems are implemented. Our group approaches these challenges with theoretical and applied research on three main areas: Machine Learning, Robotics, and Computer Vision. 
