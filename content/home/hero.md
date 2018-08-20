@@ -12,9 +12,10 @@ weight = 3
 # Overlay a color or image (optional).
 #   Deactivate an option by commenting out the line, prefixing it with `#`.
 [header]
-  overlay_color = "#666"  # An HTML color value.
-  overlay_img = "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+#  overlay_color = "#666"  # An HTML color value.
+#  overlay_img = "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
+#  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+	height = "448px"
 
 # Call to action button (optional).
 #   Activate the button by specifying a URL and button label below.
@@ -23,129 +24,3 @@ weight = 3
 #  url = "./post/getting-started/"
 #  label = '<i class="fa fa-download"></i> Install Now'
 +++
-<script type="text/javascript">
-
-      window.onload = function(){
-		var canvas = document.querySelector("canvas");
-		canvas.width = window.innerWidth;
-		canvas.height = window.innerHeight;
-		var ctx = canvas.getContext("2d");
-
-		var TAU = 2 * Math.PI;
-
-		times = [];
-		function loop() {
-		  ctx.clearRect(0, 0, canvas.width, canvas.height);
-		  update();
-		  draw();
-		  requestAnimationFrame(loop);
-		}
-
-		function Ball (startX, startY, startVelX, startVelY) {
-		  this.x = startX || Math.random() * canvas.width;
-		  this.y = startY || Math.random() * canvas.height;
-		  this.vel = {
-		    x: startVelX || Math.random() * 2 - 1,
-		    y: startVelY || Math.random() * 2 - 1
-		  };
-		  this.update = function(canvas) {
-		    if (this.x > canvas.width + 50 || this.x < -50) {
-		      this.vel.x = -this.vel.x;
-		    }
-		    if (this.y > canvas.height + 50 || this.y < -50) {
-		      this.vel.y = -this.vel.y;
-		    }
-		    this.x += this.vel.x;
-		    this.y += this.vel.y;
-		  };
-		  this.draw = function(ctx, can) {
-		    ctx.beginPath();
-		    ctx.globalAlpha = .4;
-		    ctx.fillStyle = '#448fda';
-		    ctx.arc((0.5 + this.x) | 0, (0.5 + this.y) | 0, 3, 0, TAU, false);
-		    ctx.fill();
-		  }
-		}
-
-		var balls = [];
-		for (var i = 0; i < canvas.width * canvas.height / (65*65*5); i++) {
-		  balls.push(new Ball(Math.random() * canvas.width, Math.random() * canvas.height));
-		}
-
-		var lastTime = Date.now();
-		function update() {
-		  var diff = Date.now() - lastTime;
-		  for (var frame = 0; frame * 16.6667 < diff; frame++) {
-		    for (var index = 0; index < balls.length; index++) {
-		      balls[index].update(canvas);
-		    }
-		  }
-		  lastTime = Date.now();
-		}
-
-		function draw() {
-		  ctx.globalAlpha=1;
-		  ctx.fillStyle = '#001c33';
-		  ctx.fillRect(0,0,canvas.width, canvas.height);
-		  for (var index = 0; index < balls.length; index++) {
-		    var ball = balls[index];
-		    ball.draw(ctx, canvas);
-		    ctx.beginPath();
-		    for (var index2 = balls.length - 1; index2 > index; index2 += -1) {
-		      var ball2 = balls[index2];
-		      var dist = Math.hypot(ball.x - ball2.x, ball.y - ball2.y);
-		        if (dist < 300) {
-		          ctx.strokeStyle = "#448fda";
-		          ctx.globalAlpha = 1 - (dist > 200 ? .8 : dist / 150);
-		          ctx.lineWidth = "2px";
-		          ctx.moveTo((0.5 + ball.x) | 0, (0.5 + ball.y) | 0);
-		          ctx.lineTo((0.5 + ball2.x) | 0, (0.5 + ball2.y) | 0);
-		        }
-		    }
-		    ctx.stroke();
-		  }
-		}
-
-		// Start
-		loop();      	
-	  };
-</script>
-<!--
-<div class="w3-display-container main-background-container" id="home">
-  <canvas class="bgimg-1"></canvas>
-  <div class="w3-display-middle main-title">
-    <div class="title-container">
-      <img class="main-title-img" src='ai_logo.png'>
-      <img class="main-title-img" src='ai_text.png'>
-    </div>
-  </div>
-</div>
--->
-
-<!--
-The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes :rocket:
-<br>
-<small><a id="academic-release" href="https://sourcethemes.com/academic/updates">Latest release</a></small>
-<br><br>
-<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=gcushen&amp;repo=hugo-academic&amp;type=star&amp;count=true&amp;size=large" scrolling="0" width="160px" height="30px" frameborder="0"></iframe>
-<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=gcushen&amp;repo=hugo-academic&amp;type=fork&amp;count=true&amp;size=large" scrolling="0" width="158px" height="30px" frameborder="0"></iframe>
-
-<script type="text/javascript">
-  (function defer() {
-    if (window.jQuery) {
-      jQuery(document).ready(function(){
-        GetLatestReleaseInfo();
-      });
-    } else {
-      setTimeout(function() { defer() }, 50);
-    }
-  })();  
-  function GetLatestReleaseInfo() {
-    $.getJSON('https://api.github.com/repos/gcushen/hugo-academic/tags').done(function (json) {
-      let release = json[0];
-      // let downloadURL = release.zipball_url;
-      $('#academic-release').text('Latest release ' + release.name);  
-    });    
-}  
-</script>
--->

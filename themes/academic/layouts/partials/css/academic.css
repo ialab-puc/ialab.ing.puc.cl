@@ -368,7 +368,7 @@ a[data-fancybox] img {
 
 .home-section {
   background-color: {{ .Get "home_section_odd" }};
-  padding: 110px 0 110px 0;
+  padding: 55px 0 55px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
 }
@@ -1614,4 +1614,78 @@ body.dark {
 .dark select {
   background: rgb(40, 42, 54);
   color: rgb(248, 248, 242);
+}
+
+/***************
+ * IA Lab logo *
+ ***************/
+.w3-display-container{position:relative}
+.w3-display-container:hover .w3-display-hover{display:block}.w3-display-container:hover span.w3-display-hover{display:inline-block}.w3-display-hover{display:none}
+.main-background-container {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.bgimg-1 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1 {
+        background-attachment: scroll;
+    }
+}
+.w3-display-middle{position:absolute;top:235px;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.main-title {
+    min-width: 200px;
+    max-width: 300px;
+    width: 40%;
+}
+.main-title-img {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 12%;
+    padding-bottom: 2%;
+}
+@media (max-width:600px){
+  .title-container {
+    padding-bottom: 15%;
+  }
+  .main-title-img {
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 4%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+  .main-title {
+    width: 60%;
+  }
+}
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+header{display:block}
+canvas{display:inline-block}
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+#hero {
+  padding: 0;
+}
+
+#hero > .container {
+  width: 100%;
+  height: 415px;
+  margin: 0;
+  padding: 0;
 }
