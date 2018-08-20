@@ -4,7 +4,7 @@ widget = "projects"
 active = true
 date = 2016-04-20T00:00:00
 
-title = "Projects"
+title = "Lines of research"
 subtitle = ""
 
 # Order that this section will appear in.
@@ -13,7 +13,7 @@ weight = 50
 # Content.
 # Display content from the following folder.
 # For example, `folder = "project"` displays content from `content/project/`.
-folder = "project"
+folder = "lines-of-research"
 
 # View.
 # Customize how projects are displayed.
@@ -29,17 +29,5 @@ filter_default = 0
 # To show all items, set `tag` to "*".
 # To filter by a specific tag, set `tag` to an existing tag name.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
-[[filter]]
-  name = "All"
-  tag = "*"
-
-[[filter]]
-  name = "Deep Learning"
-  tag = "Deep Learning"
-
-[[filter]]
-  name = "Other"
-  tag = "Demo"
-
 +++
 
