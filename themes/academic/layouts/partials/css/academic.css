@@ -1689,3 +1689,11 @@ body, html {
   margin: 0;
   padding: 0;
 }
+
+#about p {
+  color: #000000;
+}
+
+#bibbase-container img {
+  margin: 0;
+}

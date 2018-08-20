@@ -264,27 +264,28 @@ enableGitInfo = false
   weight = 1
 
 [[menu.main]]
-  name = "Publicaciones"
-  url = "#publications_selected"
+  name = "Publications"
+  url = "/publications"
   weight = 2
 
+
 [[menu.main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Lines of research"
+  url = "#lines-research"
   weight = 3
 
 [[menu.main]]
-  name = "Proyectos"
-  url = "#projects"
+  name = "People"
+  url = "/people"
   weight = 4
 
 [[menu.main]]
-  name = "Cursos"
-  url = "#teaching"
+  name = "Blog"
+  url = "/posts"
   weight = 5
 
 [[menu.main]]
-  name = "Contacto"
+  name = "Contact"
   url = "#contact"
   weight = 6
 
