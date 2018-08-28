@@ -277,13 +277,6 @@ enableGitInfo = false
   name = "People"
   url = "/people"
   weight = 4
-  identifier="people_parent"
-
-[[menu.main]]
-  name = "Phd"
-  url = "/people/phd"
-  weight = 4
-  parent="people_parent"
 
 [[menu.main]]
   name = "Blog"
