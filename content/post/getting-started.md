@@ -8,7 +8,7 @@ draft = false
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = []
 
-tags = ["Deep Learning"]
+tags = ["robotics", "vqa"]
 summary = "Create a beautifully simple website or blog in under 10 minutes."
 
 [header]
