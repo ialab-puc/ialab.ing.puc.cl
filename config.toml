@@ -74,7 +74,7 @@ enableGitInfo = false
   # avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "ialab@ing.puc.cl"
   address = "Av. Vicuña Mackenna 4860, Macul, Santiago, Chile"
-  phone = "888 888 88 88"
+  # phone = "888 888 88 88"
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
   keybase = ""
