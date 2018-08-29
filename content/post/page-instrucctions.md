@@ -3,7 +3,7 @@ title = "Instrucciones Pagina"
 
 date = 2018-08-28T00:00:00
 lastmod = 2018-08-28T00:00:00
-draft = false
+draft = true
 
 math=true
 
