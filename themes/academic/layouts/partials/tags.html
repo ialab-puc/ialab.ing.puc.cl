@@ -3,7 +3,15 @@
 {{ if gt $tagsLen 0 }}
 <div class="article-tags">
   {{ range $k, $v := $.Params.tags }}
-  <a class="label label-default" href="{{ ($.Site.GetPage (printf "tags/%s" .)).Permalink }}">{{ . }}</a>
+
+	  {{ with ($.Site.GetPage (printf "lines-of-research/%s" .)) }}
+	  <a class="btn btn-primary btn-outline btn-xs" href="{{ .Permalink }}">
+	  	{{ $v }}
+	  </a>
+	  {{ else }}
+	    {{ errorf "The `tags` parameter in the POST references a line of research that doesnt exist. Please either set `tags = []` or fix the reference." $.File.Path . }}
+	  {{ end }}
+
   {{ end }}
 </div>
 {{ end }}
