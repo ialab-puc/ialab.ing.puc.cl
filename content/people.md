@@ -2,7 +2,7 @@
 title = "Faculty and members"
 
 date = 2016-04-20T00:00:00
-draft = true
+draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = []
