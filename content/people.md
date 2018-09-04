@@ -24,6 +24,7 @@ image = "ialab-people.jpg"
 ## PhD Students
 
 - Andrés Carvallo
+- Carlos Aspillaga
 - Felipe Ríos
 - Felipe del Río
 - Gabriel Sepúlveda
