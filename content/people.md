@@ -1,5 +1,5 @@
 +++
-title = "Faculty and members"
+title = "People at IA Lab"
 
 date = 2016-04-20T00:00:00
 draft = false
@@ -10,7 +10,52 @@ authors = []
 summary = "Meet the people behind IALab!"
 
 [header]
-image = "http://grima.ing.puc.cl/files/6812/7852/0623/grima_head.jpg"
+image = "ialab-people.jpg"
 +++
 
-<h3>Alvaro Soto</h3>
+## Faculty
+
+- Álvaro Soto
+- Jorge Baier
+- Cristian Ruz
+- Denis Parra
+- Hans Löbel
+
+## PhD Students
+
+- Andrés Carvallo
+- Felipe Ríos
+- Felipe del Río
+- Gabriel Sepúlveda
+- Matías Greco
+- Pablo Messina
+- Vladimir Araujo
+
+## MSc Students 
+
+- Antonio Ossa
+- Andrés Cádiz
+- Alain Raymond
+- Antonio López
+- Christian Meléndez
+- Felipe Riquelme
+- Freddie Venegas
+- Germán Contreras
+- Jurgen Heysen
+- Juan Pablo de Vicente
+- Cristóbal Rojas
+- Pedro Pablo Correa
+- Patricio Cerda
+- Raimundo Manterola
+- Rodolfo Palma
+
+## Undergraduate Students
+
+- Benjamín Kramm
+- Cristóbal Eyzaguirre
+- Jaime Middleton
+
+## Alumni
+
+- Rodrigo Toro
+- Santiago Larraín
