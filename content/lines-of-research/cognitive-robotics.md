@@ -19,6 +19,9 @@ image_preview = "boards.jpg"
 # Does the project detail page use math formatting?
 math = false
 
+[header]
+image = "banner_001.jpg"
+
 +++
 
 
