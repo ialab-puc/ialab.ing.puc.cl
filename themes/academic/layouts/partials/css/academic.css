@@ -518,7 +518,6 @@ a[data-fancybox] img {
   justify-content: center;
   list-style: none;
   padding: 0;
-  margin-top: 30px;
 }
 
 #profile .network-icon li {
@@ -1690,7 +1689,6 @@ body, html {
 
 #hero > .container {
   width: 100%;
-  height: 415px;
   margin: 0;
   padding: 0;
 }
@@ -1701,4 +1699,23 @@ body, html {
 
 #bibbase-container img {
   margin: 0;
+}
+
+.about-img {
+  max-width: 150px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+@media (max-width:450px){
+  .article-banner {
+    width: 110%!important;
+    max-width: 110%!important;
+    margin-left: -20px;
+    overflow: hidden;
+  }
+}
+
+.article-metadata .share-box {
+  display: none;
 }
