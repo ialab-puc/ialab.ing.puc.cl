@@ -56,6 +56,7 @@ image = "ialab-people.jpg"
 - Bastián Mavrakis
 - Franco Muñoz
 - Miguel Fadic
+- Andrés Espinosa
 
 ## Undergraduate Students
 
