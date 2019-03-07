@@ -28,19 +28,19 @@ Hola! Esta guía asume que has sido invitado formalmente al grupo y detalla los 
 | Ingresar a *mailer* |
 | Ingresar al Slack grupal |
 | Obtener credenciales para Cluster |
+| Leer normas |
 
 
 ### Ingresar a *mailer* y *Slack* grupal
 
 El grupo difunde información relevante a una lista de miembros mediante *email*. 
 Estas informaciones incluyen el contenido, hora y lugar de las reuniones presenciales entre otras cosas.
-El encargado de añadir nuevos miembros es [Julio Hurtado](mailto:jahurtado@uc.cl), haz click en su nombre para enviarle un mail solicitando unirte a la lista.
+El encargado de añadir nuevos miembros es [Hans Lobel](mailto:halobel@ing.puc.cl), haz click en su nombre para enviarle un mail solicitando unirte a la lista.
 
 El [*Slack*](https://slack.com) permite comunicación más fluida entre todos los miembros del grupo.
 Al ingresar automáticamente estarás suscrito a los canales *general*, *offtopic*, *almuerzos* y *cluster*.
 Otro canales del *Slack* cumplen funciones específicas como el canal *papers* o los de aquellos subgrupos que están trabajando en un proyecto común.
-Cualquier miembro del grupo puede añadirte al *Slack*.
-
+El encargado de añadir nuevos miembros es [Felipe del Río](mailto:fidelrio@uc.cl).
 
 ### Obtener credenciales para Cluster
 
