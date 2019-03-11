@@ -32,7 +32,6 @@ image = "ialab-people.jpg"
 - Matías Greco
 - Pablo Messina
 - Vladimir Araujo
-- Ivan Lillo
 - Julio Hurtado
 
 ## MSc Students 
@@ -57,6 +56,7 @@ image = "ialab-people.jpg"
 - Franco Muñoz
 - Miguel Fadic
 - Andrés Espinosa
+- Francisco Rencoret
 
 ## Undergraduate Students
 
@@ -68,3 +68,4 @@ image = "ialab-people.jpg"
 
 - Rodrigo Toro
 - Santiago Larraín
+- Ivan Lillo
