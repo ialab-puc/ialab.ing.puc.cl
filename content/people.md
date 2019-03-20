@@ -57,6 +57,8 @@ image = "ialab-people.jpg"
 - Miguel Fadic
 - Andrés Espinosa
 - Francisco Rencoret
+- Francesca Lucchini Wortzman
+- Pilar Jadue Abuauad
 
 ## Undergraduate Students
 
