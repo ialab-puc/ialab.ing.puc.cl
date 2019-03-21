@@ -20,6 +20,7 @@ image = "ialab-people.jpg"
 - Cristian Ruz
 - Denis Parra
 - Hans Löbel
+- Marcelo Mendoza
 
 ## PhD Students
 
@@ -31,6 +32,7 @@ image = "ialab-people.jpg"
 - Matías Greco
 - Pablo Messina
 - Vladimir Araujo
+- Julio Hurtado
 
 ## MSc Students 
 
@@ -49,6 +51,14 @@ image = "ialab-people.jpg"
 - Patricio Cerda
 - Raimundo Manterola
 - Rodolfo Palma
+- Alejandro Pimentel
+- Bastián Mavrakis
+- Franco Muñoz
+- Miguel Fadic
+- Andrés Espinosa
+- Francisco Rencoret
+- Francesca Lucchini Wortzman
+- Pilar Jadue Abuauad
 
 ## Undergraduate Students
 
@@ -60,3 +70,4 @@ image = "ialab-people.jpg"
 
 - Rodrigo Toro
 - Santiago Larraín
+- Ivan Lillo
