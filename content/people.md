@@ -33,6 +33,7 @@ image = "ialab-people.jpg"
 - Pablo Messina
 - Vladimir Araujo
 - Julio Hurtado
+- Francisca Cattan
 
 ## MSc Students 
 
