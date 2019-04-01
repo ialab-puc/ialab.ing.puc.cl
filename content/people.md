@@ -34,6 +34,7 @@ image = "ialab-people.jpg"
 - Vladimir Araujo
 - Julio Hurtado
 - Francisca Cattan
+- Andrés Villa
 
 ## MSc Students 
 
