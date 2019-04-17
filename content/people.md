@@ -21,6 +21,7 @@ image = "ialab-people.jpg"
 - Denis Parra
 - Hans Löbel
 - Marcelo Mendoza
+- Karim Pichara
 
 ## PhD Students
 
@@ -33,6 +34,13 @@ image = "ialab-people.jpg"
 - Pablo Messina
 - Vladimir Araujo
 - Julio Hurtado
+- Francisca Cattan
+- Andrés Villa
+- Juan Arévalo
+- Ignacio Becker
+- Astrid San Martín
+- Francisco Pérez Galarce
+- Felipe Rojas
 
 ## MSc Students 
 
@@ -59,6 +67,11 @@ image = "ialab-people.jpg"
 - Francisco Rencoret
 - Francesca Lucchini Wortzman
 - Pilar Jadue Abuauad
+- Javiera Astudillo
+- Rodrigo Hurtado
+- Matias Veragara
+- Lukas Zorich
+- Nebil Kawas
 
 ## Undergraduate Students
 
