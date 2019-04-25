@@ -2,7 +2,7 @@
 # Date this page was created.
 
 # Project title.
-title = "Astronomy"
+title = "AI for Astronomy"
 
 # Project summary to display on homepage.
 # summary = "descripcion de astronomia"
@@ -25,6 +25,4 @@ sharing = false
 
 +++
 
-Some of the people at the research group reasrch Astronomy related problems. They are astronomers and computer scientists, with common interests in data science for astronomy. 
-Together with postgraduate students and professors from Harvard, we have continuous exchange programs where we travel between PUC and Harvard several times every year. 
-We have open positions for talented students who want to learn data science, the main requirement is to have a strong background in computer programming, math, statistics, and the wish to work very hard.
+Thanks to the quality and transparency of its skies, Chile is today one of the world leading countries in terms of research in astronomy. As a relevant fact, by the year 2020 Chile will concentrate over 70% of the world’s astronomical infrastructure. In our group, we contribute to the national research agenda in astronomy by studying how IA technologies can impact this scientific field. Our recent contributions include new tools for automatic classification of variable stars, detection of quasars, discovery of known objects, dealing with missing data, and meta classification, among others.
