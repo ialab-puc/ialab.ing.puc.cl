@@ -1,10 +1,64 @@
+@inproceedings{Kevin:EtAl:2018,
+  Author = {K. Chen and J.P De Vicente and G. Sepulveda and F. Xia and A. Soto and M. Vazquez and S. Savarese},
+  Title = {A Behavioral Approach to Visual Navigation with Graph Localization Networks},
+  booktitle = {RSS},
+  year = {2019},
+  abstract = {Inspired by research in psychology, we introduce a behavioral approach for visual navigation using topological maps. Our goal is to enable a robot to navigate from one location to another, relying only on its visual observations and the topological map of the environment. To this end, we propose using graph neural networks for localizing the agent in the map, and decompose the action space into primitive behaviors implemented as convolutional or recurrent neural networks. Using the Gibson simulator and the Stanford 2D-3D-S dataset, we verify that our approach outperforms relevant baselines and is able to navigate in both seen and unseen indoor environments.},
+url={https://graphnav.stanford.edu/},
+}
+
+
+
+
+
+@inproceedings{Ben:EtAl:2018,
+  Author = {B. Zhang and JC. Niebles and A. Soto},
+  Title = {Interpretable Visual Question Answering by Visual Grounding from Automatic Attention Annotations},
+  booktitle = {WACV},
+  year = {2019},
+  abstract = {A key aspect of VQA models that are interpretable is their ability to ground their answers to relevant regions in the image. Current approaches with this capability rely on supervised learning and human annotated groundings to train attention mechanisms inside the VQA architecture. Unfortunately, obtaining human annotations specific for visual grounding is difficult and expensive. In this work, we demonstrate that we can effectively train a VQA architecture with grounding supervision that can be automatically obtained from available region descriptions and object annotations. We also show that our model trained with this mined supervision generates visual groundings that achieve higher correlation to manually-annotated groundings than alternative approaches, even in the case of state-of-the-art algorithms that are directly trained with human grounding annotations.},
+url={https://arxiv.org/abs/1808.00265},
+}
+
+
+
+
+@article{Peralta:EtAl:2019,
+  Author = {B. Peralta, A. Saavedra, L. Caro, A. Soto},
+  Title = {Mixture of Experts with Entropic Regularization for Data Classification},
+  Journal = {Entropy},
+  Volume = {21},
+  Number = {2},
+  Year = {2019},
+  abstract = {Today, there is growing interest in the automatic classification of a variety of tasks, such as weather forecasting, product recommendations, intrusion detection, and people recognition.“Mixture-of-experts” is a well-known classification technique; it is a probabilistic model consisting of local expert classifiers weighted by a gate network that is typically based on softmax functions, combined with learnable complex patterns in data. In this scheme, one data point is influenced by only one expert; as a result, the training process can be misguided in real datasets for which complex data need to be explained by multiple experts. In this work, we propose a variant of the regular mixture-of-experts model. In the proposed model, the cost classification is penalized by the Shannon entropy of the gating network in order to avoid a “winner-takes-all” output for the gating network. Experiments show the advantage of our approach using several real datasets, with improvements in mean accuracy of 3–6\% in some datasets. In future work, we plan to embed feature selection into this model.},
+url = {https://www.mdpi.com/1099-4300/21/2/190}
+}
+
+
+
+@article{Messina:EtAl:2019,
+  Author = {Pablo Messina and Vicente Dominguez and Denis Parra and Christoph Trattner and Alvaro Soto},
+  Title = {Content-based artwork recommendation: integrating painting metadata with neural and manually-engineered visual features},
+  Journal = {User Modeling and User-Adapted Interaction},
+  Volume = {29},
+  Number = {2},
+  Year = {2019},
+  abstract = {Recommender Systems help us deal with information overload by suggesting relevant items based on our personal preferences. Although there is a large body of research in areas such as movies or music, artwork recommendation has received comparatively little attention, despite the continuous growth of the artwork market. Most previous research has relied on ratings and metadata, and a few recent works have exploited visual features extracted with deep neural networks (DNN) to recommend digital art. In this work, we contribute to the area of content-based artwork recommendation of physical paintings by studying the impact of the aforementioned features (artwork metadata, neural visual features), as well as manually-engineered visual features, such as naturalness, brightness and contrast. We implement and evaluate our method using transactional data from UGallery.com, an online artwork store. Our results show that artwork recommendations based on a hybrid combination of artist preference, curated attributes, deep neural visual features and manually-engineered visual features produce the best performance. Moreover, we discuss the trade-off between automatically obtained DNN features and manually-engineered visual features for the purpose of explainability, as well as the impact of user profile size on predictions. Our research informs the development of next-generation content-based artwork recommenders which rely on different types of data, from text to multimedia.},
+url = {https://link.springer.com/article/10.1007/s11257-018-9206-9}
+}
+
+
+%***********2018***************%
+
+
+
 @inproceedings{Jingwei:EtAl:2018,
   Author = {J. Ji and S. Buch and JC. Niebles and A. Soto},
   Title = {End-to-End Joint Semantic Segmentation of Actors and Actions in Video},
   booktitle = {{ECCV}},
   year = {2018},
   abstract = {Traditional video understanding tasks include human action recognition and actor-object semantic segmentation. However, the joint task of providing semantic segmentation for different actor classes simultaneously with their action class remains a challenging but necessary task for many applications. In this work, we propose a new end-to-end architecture for tackling this joint task in videos. Our model effectively leverages multiple input modalities, contextual information, and joint multitask learning in the video to directly output semantic segmentations in a single unified framework. We train and benchmark our model on the large-scale Actor-Action Dataset (A2D) for joint actor-action semantic segmentation, and demonstrate state-of-the-art performance for both segmentation and detection. We also perform experiments verifying our joint approach improves performance for zero-shot understanding, indicating generalizability of our jointly learned feature space.},
-url={http://saturno.ing.puc.cl/media/papers_alvaro/},
+url={http://svl.stanford.edu/assets/papers/ji2018eccv.pdf},
 }
 
 
@@ -16,20 +70,9 @@ url={http://saturno.ing.puc.cl/media/papers_alvaro/},
   booktitle = {EMNLP},
   year = {2018},
   abstract = {We propose an end-to-end deep learning model for translating free-form natural language instructions to a high-level plan for behavioral robot navigation. We use attention models to connect information from both the user instructions and a topological representation of the environment. We evaluate our model's performance on a new dataset containing 10,050 pairs of navigation instructions. Our model significantly outperforms baseline approaches. Furthermore, our results suggest that it is possible to leverage the environment map as a relevant knowledge base to facilitate the translation of free-form navigational instruction.},
-url={http://saturno.ing.puc.cl/media/papers_alvaro/},
+url={https://arxiv.org/abs/1810.00663},
 }
 
-
-
-
-@inproceedings{Ben:EtAl:2018,
-  Author = {B. Zhang and JC. Niebles and A. Soto},
-  Title = {Interpretable Visual Question Answering by Visual Grounding from Automatic Attention Annotations},
-  booktitle = {arxiv.org/abs/1808.00265},
-  year = {2018},
-  abstract = {A key aspect of VQA models that are interpretable is their ability to ground their answers to relevant regions in the image. Current approaches with this capability rely on supervised learning and human annotated groundings to train attention mechanisms inside the VQA architecture. Unfortunately, obtaining human annotations specific for visual grounding is difficult and expensive. In this work, we demonstrate that we can effectively train a VQA architecture with grounding supervision that can be automatically obtained from available region descriptions and object annotations. We also show that our model trained with this mined supervision generates visual groundings that achieve higher correlation to manually-annotated groundings than alternative approaches, even in the case of state-of-the-art algorithms that are directly trained with human grounding annotations.},
-url={https://arxiv.org/abs/1808.00265},
-}
 
 
 
@@ -83,17 +126,21 @@ url={https://arxiv.org/pdf/1803.04119v1.pdf},
 
 
 
-@article{Messina:EtAl:2017,
-  Author = {Pablo Messina and Vicente Dominguez and Denis Parra and Christoph Trattner and Alvaro Soto},
-  Title = {Content-based artwork recommendation: integrating painting metadata with neural and manually-engineered visual features},
-  Journal = {User Modeling and User-Adapted Interaction},
-  Year = {2018},
-  abstract = {Recommender Systems help us deal with information overload by suggesting relevant items based on our personal preferences. Although there is a large body of research in areas such as movies or music, artwork recommendation has received comparatively little attention, despite the continuous growth of the artwork market. Most previous research has relied on ratings and metadata, and a few recent works have exploited visual features extracted with deep neural networks (DNN) to recommend digital art. In this work, we contribute to the area of content-based artwork recommendation of physical paintings by studying the impact of the aforementioned features (artwork metadata, neural visual features), as well as manually-engineered visual features, such as naturalness, brightness and contrast. We implement and evaluate our method using transactional data from UGallery.com, an online artwork store. Our results show that artwork recommendations based on a hybrid combination of artist preference, curated attributes, deep neural visual features and manually-engineered visual features produce the best performance. Moreover, we discuss the trade-off between automatically obtained DNN features and manually-engineered visual features for the purpose of explainability, as well as the impact of user profile size on predictions. Our research informs the development of next-generation content-based artwork recommenders which rely on different types of data, from text to multimedia.},
-url = {https://link.springer.com/article/10.1007/s11257-018-9206-9}
+
+%***********2017***************%
+
+
+@inproceedings{Toro:EtAl:2017,
+  Author = {R. Toro, J. Baier, C. Ruz, A. Soto},
+  Title = {How a General-Purpose Commonsense Ontology can Improve Performance of Learning-Based Image Retrieval},
+  booktitle = {{IJCAI}},
+  year = {2017},
+  abstract = {The knowledge representation community has built general-purpose ontologies which contain large amounts of commonsense knowledge over relevant aspects of the world, including useful visual information, e.g.: "a ball is used by a football player", "a tennis player is located at a tennis court". Current state-of-the-art approaches for visual recognition do not exploit these rule-based knowledge sources. Instead, they learn recognition models directly from training examples. In this paper, we study how general-purpose ontologies---specifically, MIT's ConceptNet ontology---can improve the performance of state-of-the-art vision systems. As a testbed, we tackle the problem of sentence-based image retrieval. Our retrieval approach incorporates knowledge from ConceptNet on top of a large pool of object detectors derived from a deep learning technique. In our experiments, we show that ConceptNet can improve performance on a common benchmark dataset. Key to our performance is the use of the ESPGAME dataset to select visually relevant relations from ConceptNet. Consequently, a main conclusion of this work is that general-purpose commonsense ontologies improve performance on visual reasoning tasks when properly filtered to select meaningful visual relations.
+},
+url={https://arxiv.org/abs/1705.08844},
 }
 
 
-%***********2017***************%
 
 
 @article{Puelma:EtAl:2017,
