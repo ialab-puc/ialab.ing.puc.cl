@@ -243,6 +243,11 @@ enableGitInfo = false
     icon_pack = "fa"
     link = "//github.com/ialab-puc"
 
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "//twitter.com/IALab_UC"
+
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
   # [[params.social]]
