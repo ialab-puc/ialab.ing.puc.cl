@@ -72,11 +72,12 @@ image = "ialab-people.jpg"
 - Matias Veragara
 - Lukas Zorich
 - Nebil Kawas
+- Cristóbal Eyzaguirre
+
 
 ## Undergraduate Students
 
 - Benjamín Kramm
-- Cristóbal Eyzaguirre
 - Jaime Middleton
 
 ## Alumni
