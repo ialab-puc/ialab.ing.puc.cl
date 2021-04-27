@@ -73,6 +73,7 @@ image = "ialab-people.jpg"
 - Lukas Zorich
 - Nebil Kawas
 - Cristóbal Eyzaguirre
+- Tamara Covacevich
 
 
 ## Undergraduate Students
