@@ -82,7 +82,7 @@ image = "ialab-people.jpg"
 - Francisco Rencoret (M.Sc.)
 - Ivan Lillo (Ph.D.)
 - Juan Pablo de Vicente (M.Sc.)
-- Matias Veragara (M.Sc.)
+- Matias Vergara (M.Sc.)
 - Miguel Fadic (M.Sc.)
 - Nebil Kawas (M.Sc.)
 - Patricio Cerda (M.Sc.)
