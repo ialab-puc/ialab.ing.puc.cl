@@ -36,10 +36,10 @@ image = "ialab-people.jpg"
 - Felipe Ríos
 - Felipe del Río
 - Francisca Cattan
-- Francisco Pérez Galarce
+- Francisco Pérez
 - Gabriel Sepúlveda
 - Ignacio Becker
-- Ivania Donoso Guzmán
+- Ivania Donoso
 - Jorge Díaz-Ramírez
 - Juan Arévalo
 - Julio Hurtado
@@ -53,22 +53,22 @@ image = "ialab-people.jpg"
 - Alejandro Pimentel
 - Antonio López
 - Antonio Ossa
+- Benjamin Earle
 - Camila Vera
 - Cristóbal Eyzaguirre
-- Cristóbal Rojas
 - Daniela Flores
-- Francesca Lucchini Wortzman
+- Francesca Lucchini
 - Franco Muñoz
 - Gregory Schuit Condell
 - Hernán Valdivieso
 - Isidora Palma
 - Javiera Astudillo
-- Juan Pablo de Vicente
+- Joaquín Ossandón
 - Jurgen Heysen
 - Lukas Zorich
 - Manuel Cartagena
 - Pablo Pino
-- Pilar Jadue Abuauad
+- Pilar Jadue
 - Ricardo Schilling
 - Rodrigo Hurtado
 - Sebastián Amenabar
@@ -77,9 +77,11 @@ image = "ialab-people.jpg"
 
 - Andrés Cádiz (M.Sc.)
 - Christian Meléndez (M.Sc.)
+- Cristóbal Rojas (M.Sc.)
 - Felipe Riquelme (M.Sc.)
 - Francisco Rencoret (M.Sc.)
 - Ivan Lillo (Ph.D.)
+- Juan Pablo de Vicente (M.Sc.)
 - Matias Veragara (M.Sc.)
 - Miguel Fadic (M.Sc.)
 - Nebil Kawas (M.Sc.)
