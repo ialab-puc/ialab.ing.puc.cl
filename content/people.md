@@ -25,6 +25,7 @@ image = "ialab-people.jpg"
 
 ## PhD Students
 
+- Alain Raymond
 - Andrés Carvallo
 - Andrés Villa
 - Astrid San Martín
@@ -39,6 +40,7 @@ image = "ialab-people.jpg"
 - Gabriel Sepúlveda
 - Ignacio Becker
 - Ivania Donoso Guzmán
+- Jorge Díaz-Ramírez
 - Juan Arévalo
 - Julio Hurtado
 - Manuela Garretón
@@ -48,7 +50,6 @@ image = "ialab-people.jpg"
 
 ## MSc Students
 
-- Alain Raymond
 - Alejandro Pimentel
 - Antonio López
 - Antonio Ossa
@@ -66,9 +67,6 @@ image = "ialab-people.jpg"
 - Jurgen Heysen
 - Lukas Zorich
 - Manuel Cartagena
-- Matias Veragara
-- Miguel Fadic
-- Nebil Kawas
 - Pablo Pino
 - Pilar Jadue Abuauad
 - Ricardo Schilling
@@ -82,6 +80,9 @@ image = "ialab-people.jpg"
 - Felipe Riquelme (M.Sc.)
 - Francisco Rencoret (M.Sc.)
 - Ivan Lillo (Ph.D.)
+- Matias Veragara (M.Sc.)
+- Miguel Fadic (M.Sc.)
+- Nebil Kawas (M.Sc.)
 - Patricio Cerda (M.Sc.)
 - Pedro Pablo Correa (M.Sc.)
 - Raimundo Manterola (M.Sc.)
