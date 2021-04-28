@@ -16,81 +16,79 @@ image = "ialab-people.jpg"
 ## Faculty
 
 - Álvaro Soto
-- Jorge Baier
 - Cristian Ruz
 - Denis Parra
 - Hans Löbel
-- Marcelo Mendoza
+- Jorge Baier
 - Karim Pichara
+- Marcelo Mendoza
 
 ## PhD Students
 
 - Andrés Carvallo
+- Andrés Villa
+- Astrid San Martín
 - Carlos Aspillaga
+- Carlos Muñoz
+- Felipe Gutiérrez
+- Felipe Rojas
 - Felipe Ríos
 - Felipe del Río
+- Francisca Cattan
+- Francisco Pérez Galarce
 - Gabriel Sepúlveda
+- Ignacio Becker
+- Ivania Donoso Guzmán
+- Juan Arévalo
+- Julio Hurtado
+- Manuela Garretón
 - Matías Greco
 - Pablo Messina
 - Vladimir Araujo
-- Julio Hurtado
-- Francisca Cattan
-- Andrés Villa
-- Juan Arévalo
-- Ignacio Becker
-- Astrid San Martín
-- Francisco Pérez Galarce
-- Felipe Rojas
-- Felipe Gutiérrez
-- Carlos Muñoz
-<!-- - Manuela Garretón
-- Ivania Donoso Guzmán -->
 
 ## MSc Students
 
-- Antonio Ossa
-- Andrés Cádiz
 - Alain Raymond
+- Alejandro Pimentel
 - Antonio López
-- Christian Meléndez
+- Antonio Ossa
+- Bastián Mavrakis
+- Camila Vera
+- Cristóbal Eyzaguirre
+- Cristóbal Rojas
+- Daniela Flores
+- Francesca Lucchini Wortzman
+- Franco Muñoz
 - Freddie Venegas
 - Germán Contreras
-- Jurgen Heysen
-- Juan Pablo de Vicente
-- Cristóbal Rojas
-- Pedro Pablo Correa
-- Alejandro Pimentel
-- Bastián Mavrakis
-- Franco Muñoz
-- Miguel Fadic
-- Francesca Lucchini Wortzman
-- Pilar Jadue Abuauad
+- Gregory Schuit Condell
+- Hernán Valdivieso
+- Isidora Palma
 - Javiera Astudillo
-- Rodrigo Hurtado
-- Matias Veragara
+- Juan Pablo de Vicente
+- Jurgen Heysen
 - Lukas Zorich
+- Manuel Cartagena
+- Matias Veragara
+- Miguel Fadic
 - Nebil Kawas
-- Cristóbal Eyzaguirre
+- Pablo Pino
+- Pilar Jadue Abuauad
+- Ricardo Schilling
+- Rodrigo Hurtado
 - Sebastián Amenabar
-- Camila Vera
-
-
-<!-- ## Undergraduate Students
-
-- Benjamín Kramm
-- Jaime Middleton -->
 
 ## Alumni
 
+- Andrés Cádiz (M.Sc.)
+- Christian Meléndez (M.Sc.)
+- Felipe Riquelme (M.Sc.)
+- Francisco Rencoret (M.Sc.)
+- Ivan Lillo (Ph.D.)
+- Patricio Cerda (M.Sc.)
+- Pedro Pablo Correa (M.Sc.)
+- Raimundo Manterola (M.Sc.)
+- Rodolfo Palma (M.Sc.)
 - Rodrigo Toro (Ph.D.)
 - Santiago Larraín (M.Sc.)
-- Ivan Lillo (Ph.D.)
-- Felipe Riquelme (M.Sc.)
-- Andrés Cádiz (M.Sc.)
-- Patricio Cerda (M.Sc.)
-- Raimundo Manterola (M.Sc.)
-- Francisco Rencoret (M.Sc.)
-- Rodolfo Palma (M.Sc.)
-- Christian Meléndez (M.Sc.)
-- Pablo Correa
 - Tamara Covacevich (M.Sc.)
