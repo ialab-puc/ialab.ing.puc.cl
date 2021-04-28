@@ -41,30 +41,28 @@ image = "ialab-people.jpg"
 - Astrid San Martín
 - Francisco Pérez Galarce
 - Felipe Rojas
+- Felipe Gutiérrez
+- Carlos Muñoz
+<!-- - Manuela Garretón
+- Ivania Donoso Guzmán -->
 
-## MSc Students 
+## MSc Students
 
 - Antonio Ossa
 - Andrés Cádiz
 - Alain Raymond
 - Antonio López
 - Christian Meléndez
-- Felipe Riquelme
 - Freddie Venegas
 - Germán Contreras
 - Jurgen Heysen
 - Juan Pablo de Vicente
 - Cristóbal Rojas
 - Pedro Pablo Correa
-- Patricio Cerda
-- Raimundo Manterola
-- Rodolfo Palma
 - Alejandro Pimentel
 - Bastián Mavrakis
 - Franco Muñoz
 - Miguel Fadic
-- Andrés Espinosa
-- Francisco Rencoret
 - Francesca Lucchini Wortzman
 - Pilar Jadue Abuauad
 - Javiera Astudillo
@@ -73,16 +71,26 @@ image = "ialab-people.jpg"
 - Lukas Zorich
 - Nebil Kawas
 - Cristóbal Eyzaguirre
-- Tamara Covacevich
+- Sebastián Amenabar
+- Camila Vera
 
 
-## Undergraduate Students
+<!-- ## Undergraduate Students
 
 - Benjamín Kramm
-- Jaime Middleton
+- Jaime Middleton -->
 
 ## Alumni
 
-- Rodrigo Toro
-- Santiago Larraín
-- Ivan Lillo
+- Rodrigo Toro (Ph.D.)
+- Santiago Larraín (M.Sc.)
+- Ivan Lillo (Ph.D.)
+- Felipe Riquelme (M.Sc.)
+- Andrés Cádiz (M.Sc.)
+- Patricio Cerda (M.Sc.)
+- Raimundo Manterola (M.Sc.)
+- Francisco Rencoret (M.Sc.)
+- Rodolfo Palma (M.Sc.)
+- Christian Meléndez (M.Sc.)
+- Pablo Correa
+- Tamara Covacevich (M.Sc.)
